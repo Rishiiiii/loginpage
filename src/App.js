@@ -6,7 +6,8 @@ import Home from './Home';
 import { Component } from 'react';
 
 class App extends Component {
-  constructor(props) {
+  constructor(props) 
+  {
     super(props);
     this.state = {value: ''};
 
@@ -14,11 +15,13 @@ class App extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event) {
+  handleChange(event) 
+  {
     this.setState({value: event.target.value});
   }
 
-  handleSubmit(event) {
+  handleSubmit(event) 
+  {
     alert('A name was submitted: ' + this.state.value);
     event.preventDefault();
   }
@@ -35,7 +38,8 @@ class App extends Component {
   //   );
   // }
 
-  render(){
+  render()
+  {
     return (
       <div className="App">
       
