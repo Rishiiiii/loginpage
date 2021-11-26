@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.hs {
+  background-color: rgb(14, 4, 31);
+  border: 2px solid black;
+  color: white;
+  height: 15vh;
+}
+.fs {
+  background-color: rgb(14, 4, 31);
+  border: 2px solid black;
+  color: white;
+}
+.sn {
+  float: left;
+  width: 20%;
+  height: 70vh;
+  background-color: rgb(105, 192, 226);
+}
+.maincontent {
+  background-color: rgb(223, 139, 190);
+  width: 80%;
+  height: 70vh;
+  text-align: center;
+  float: left;
+}
+
+.main {
+  height: 70vh;
+}
+p {
+  color: white;
+}
+.bt {
+  background-color: rgb(28, 221, 228);
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+}
